@@ -1,0 +1,13 @@
+.Dictionary {
+  background-color: #f1f1f1;
+  border: 4px solid #0f3d3e;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.Dictionary input {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 4px;
+}
