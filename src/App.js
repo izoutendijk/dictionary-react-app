@@ -13,7 +13,14 @@ function App() {
           <Dictionary />
         </main>
         <footer className="App-footer text-center">
-          Open Source Code by Iris Zoutendijk
+          <a
+            href="https://github.com/izoutendijk/dictionary-react-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open source code
+          </a>{" "}
+          by Iris Zoutendijk
         </footer>
       </div>
     </div>
