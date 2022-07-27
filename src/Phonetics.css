@@ -2,3 +2,7 @@
   color: #0f3d3e;
   font-weight: bold;
 }
+
+.Phonetics #audioplayer {
+  padding: 10px 0px;
+}
