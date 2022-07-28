@@ -1,0 +1,4 @@
+.Example .exampleText {
+  color: var(--links-color);
+  font-weight: 800;
+}

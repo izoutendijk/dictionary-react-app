@@ -1,8 +1,7 @@
 .Phonetics .phoneticText {
-  color: #0f3d3e;
+  color: var(--links-color);
   font-weight: bold;
-}
-
-.Phonetics #audioplayer {
+  margin-left: 16px;
   padding: 10px 0px;
+  align-items: center;
 }

@@ -1,0 +1,9 @@
+.Meaning .definition {
+  font-size: 15px;
+}
+
+.Meaning .example {
+  font-size: 13px;
+  opacity: 0.9;
+  margin-top: 1px;
+}

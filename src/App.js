@@ -1,5 +1,5 @@
 import "./App.css";
-import logo from "./logo.png";
+import logo from "./logo.svg";
 import Dictionary from "./Dictionary";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
           <img src={logo} alt="logo" className="App-logo img-fluid"></img>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="react" />
         </main>
         <footer className="App-footer text-center">
           <a

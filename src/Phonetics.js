@@ -5,14 +5,15 @@ import "./Phonetics.css";
 
 export default function Phonetics(props) {
   return (
-    <div className="Phonetics">
-      <div className="phoneticText">{props.data.text}</div>
-      <ReactAudioPlayer
-        id="audioplayer"
-        src={props.data.audio}
-        autoPlay={false}
-        controls
-      />
+    <div className="Phonetics row">
+      <div className="phoneticText col-2">{props.data.text}</div>
+      <div className="phoneticAudio col-4">
+        <ReactAudioPlayer
+          src={props.data.audio}
+          autoPlay={false}
+          controls
+        />
+      </div>
     </div>
   );
 }
