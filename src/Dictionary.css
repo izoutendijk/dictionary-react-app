@@ -2,7 +2,8 @@
   background-color: var(--elements-bg-color);
   border-radius: 6px;
   box-shadow: 0px 7px 10px rgb(0 0 0 / 30%);
-  margin: 15px;
+  margin: 15px auto;
+  max-width: 960px;
   padding: 30px;
 }
 
