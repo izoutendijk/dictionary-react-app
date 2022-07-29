@@ -1,7 +1,8 @@
 .Phonetics .phoneticText {
   color: var(--links-color);
   font-weight: bold;
-  margin-left: 16px;
-  padding: 10px 0px;
+  
+  padding: 15px 0px;
   align-items: center;
+  text-align: center;
 }
